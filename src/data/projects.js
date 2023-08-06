@@ -14,7 +14,7 @@ const projects = [
     image: '/DnD.png',
     repositoryLink: "https://github.com/joemalatesta/DnD-w-backend-FE",
     deployment: "https://dndscrubhub.netlify.app",
-    technologies: ["HTML", "JavaScript", "CSS", "React", "Mongoose","MongoDB"]
+    technologies: ["HTML", "JavaScript", "CSS", "React","MongoDB"]
   },
   {
     title: "Rubber Duck",
@@ -22,7 +22,7 @@ const projects = [
     image: "",
     repositoryLink: "",
     deployment: "",
-    technologies: ["HTML", "JavaScript", "CSS", "React", "Mongoose","MongoDB"]
+    technologies: ["HTML", "JavaScript", "CSS", "React","MongoDB"]
   },
   {
     title: "Whack-A-Instructor",
