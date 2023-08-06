@@ -278,8 +278,16 @@ section > #project-detail-bttns {
 }
 
 #technology-card {
+  display: flex;
+  align-items:center;
   padding: 4px;
   width: 100px;
+}
+
+.tech-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*! css for contact page */

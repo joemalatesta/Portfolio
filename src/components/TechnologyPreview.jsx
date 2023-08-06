@@ -12,9 +12,9 @@ function TechnologyPreview (props) {
   return (
     <Link to={path}>
       <Card id="technology-card">
-      <Card.Body>
-        {props?.technology}
+      <Card.Body className="tech-icons">
         <img src={getTechIcon(props.technology)} style={{width: "30px"}}alt="" />
+        {props?.technology}
       </Card.Body>
     </Card>
     </Link>
