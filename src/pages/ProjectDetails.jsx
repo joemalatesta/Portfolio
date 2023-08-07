@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom'
 import findProject from "../utilities/findProject"
 import TechnologiesList from '../components/TechnologiesList'
-
+import { Card }  from "react-bootstrap"
 function ProjectDetails () {
   const location = useLocation()
   const project = findProject(location.pathname)
@@ -13,7 +13,10 @@ function ProjectDetails () {
       <div id="project-info">
         <div>
           <h2>{project.title}</h2>
-          <p>{project.description}</p>
+          <Card style={{width:'600px'}}>
+            <p >{project.description}</p>
+
+          </Card>
         </div>
       </div>
       <section >

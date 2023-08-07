@@ -16,14 +16,14 @@ const projects = [
     deployment: "https://dndscrubhub.netlify.app",
     technologies: ["HTML", "JavaScript", "CSS", "React","MongoDB"]
   },
-  // {
-  //   title: "Rubber Duck",
-  //   description: "",
-  //   image: "",
-  //   repositoryLink: "",
-  //   deployment: "",
-  //   technologies: ["HTML", "JavaScript", "CSS", "React","MongoDB"]
-  // },
+  {
+    title: "Rubber Duck",
+    description: "This was a colaboration between myself and 2 other amazing developers Ian Terada and Hunter Long. We wrote this in under 2.5 days as an example to our student during a mid-course hackathon. This was one of the most enjoyable project I have had to priveledge to work on. Thanks Ian and Hunter!",
+    image: "",
+    repositoryLink: "",
+    deployment: "",
+    technologies: ["HTML", "JavaScript", "CSS", "React","MongoDB"]
+  },
   {
     title: "Whack-A-Instructor",
     description: "Fun, whack a instructor game where you can score points just by hitting your instructors. I made this game as an example to students for a project that they will be able to play after their first unit in the SEI immersive course for General Assembly",
