@@ -1,8 +1,8 @@
 import TechnologiesList from "../components/TechnologiesList"
 import listAllTechnologies from "../utilities/listAllTechnologies"
-import street from '../assets/street.gif'
-import circle from '../assets/circle.gif'
-import triangle from '../assets/triangle.gif'
+import street from '/street.gif'
+import circle from '/circle.gif'
+import triangle from '/triangle.gif'
 function Technologies () {
   const technologies = listAllTechnologies()
   return (
