@@ -11,7 +11,7 @@ function NavBar () {
     >
       <Container fluid>
           <Nav>
-            <Link to='/' className='navbar-brand'>Joe Malatesta</Link>
+            <Link to='/' className='navbar-brand'>JOE MALATESTA</Link>
             <Link to='/about' className='nav-link'>ABOUT</Link>
             <Link to='/projects' className='nav-link' >PROJECTS</Link>
             <Link to='/technologies' className='nav-link'>TECHNOLOGIES</Link>

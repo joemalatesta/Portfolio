@@ -3,7 +3,7 @@ import FactCard from "./FactCard"
 function FunFactsList(props) {
   return(
     <div id="facts-list">
-      <h2>Fun Facts</h2>
+      <h3>Fun Facts</h3>
       <ul>
         {props?.funFacts?.map((fact)=> 
           <FactCard fact={fact} key={fact.idx}/>

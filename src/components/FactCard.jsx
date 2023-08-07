@@ -4,10 +4,10 @@ function FactCard (props) {
   return (
     <Card id="fact-card">
       <Card.Body>
+        <img id="picMargin" src={props?.fact?.photo} alt="" style={{width: '75px'}} />
         <div>
           {props?.fact?.fact}
         </div>
-        <img src={props?.fact?.photo} alt="" style={{width: '75px'}} />
       </Card.Body>
     </Card>
   )
