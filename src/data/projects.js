@@ -10,20 +10,20 @@ const projects = [
   },
   {
     title: "D&D fan page",
-    description: "",
+    description: "This application is a rep of React. I added a MongoDB back-end to a React app so people could log ina and create, edit, and delete characters created by themselves using a form I created.",
     image: '/DnD.png',
     repositoryLink: "https://github.com/joemalatesta/DnD-w-backend-FE",
     deployment: "https://dndscrubhub.netlify.app",
     technologies: ["HTML", "JavaScript", "CSS", "React","MongoDB"]
   },
-  {
-    title: "Rubber Duck",
-    description: "",
-    image: "",
-    repositoryLink: "",
-    deployment: "",
-    technologies: ["HTML", "JavaScript", "CSS", "React","MongoDB"]
-  },
+  // {
+  //   title: "Rubber Duck",
+  //   description: "",
+  //   image: "",
+  //   repositoryLink: "",
+  //   deployment: "",
+  //   technologies: ["HTML", "JavaScript", "CSS", "React","MongoDB"]
+  // },
   {
     title: "Whack-A-Instructor",
     description: "Fun, whack a instructor game where you can score points just by hitting your instructors. I made this game as an example to students for a project that they will be able to play after their first unit in the SEI immersive course for General Assembly",
