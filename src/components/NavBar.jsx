@@ -4,10 +4,7 @@ import {Link} from "react-router-dom"
 function NavBar () {
   return (
     <BootstrapNavBar
-      id="navbar"
-      expand='lg'
-      sticky='top'
-      bg="dark"
+      bg="dark" data-bs-theme="dark"    
     >
       <Container fluid>
           <Nav>
