@@ -31,7 +31,7 @@ const about = {
 
   favoriteBooks: [
     {
-      title: "Stormlight Archives Series",
+      title: "Stormlight Archives",
       author: "Brandon Sanderson"
     },
     {
@@ -43,7 +43,7 @@ const about = {
       author: "Lee Childs"
     },
     {
-      title: "The Magic of Xanth Series",
+      title: "Magic of Xanth",
       author: "Piers Anthony"
     }
   ]

@@ -19,9 +19,9 @@ const projects = [
   {
     title: "Rubber Duck",
     description: "This was a colaboration between myself and 2 other amazing developers Ian Terada and Hunter Long. We wrote this in under 2.5 days as an example to our student during a mid-course hackathon. This was one of the most enjoyable project I have had to priveledge to work on. Thanks Ian and Hunter!",
-    image: "",
-    repositoryLink: "",
-    deployment: "",
+    image: "/rubberduck.png",
+    repositoryLink: "https://github.com/joemalatesta/rubber-duck-client",
+    deployment: "https://teachingrubberduck.netlify.app/",
     technologies: ["HTML", "JavaScript", "CSS", "React","MongoDB"]
   },
   {

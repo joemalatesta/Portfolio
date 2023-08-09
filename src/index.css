@@ -239,15 +239,17 @@ section > #project-detail-bttns {
   grid-row-start: 6;
 }
 
-#book-card, #fact-card {
-  height: 110px;
+#fact-card {
+  height: 165px;
   padding: 0;
   width: 45%;
+  color:antiquewhite;
 }
 
 #book-card {
-  width: 70%;
-  height: 160px;
+  height: 165px;
+  padding: 0;
+  width: 45%;
   background-image: url('./assets/openBook.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -269,6 +271,14 @@ section > #project-detail-bttns {
 
 #picMargin {
   margin: 10px;
+}
+.book {
+  background-image: url('./assets/openBook.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  justify-content: center;
+  color: black;
 }
 
 /*! css for technologies page */
@@ -346,6 +356,7 @@ th:nth-child(2) > * {
 .resume {
   display: flex;
   height: 80vh;
+  width:95%;
 }
 
 object {
@@ -375,28 +386,29 @@ object {
   color: rgb(177, 231, 202);
 }
 
-@media only screen and (min-width: 670px) {
+@media only screen and (min-width: 1265px) {
 
   /*? media query for about page */
   #meetTheEngineer {
-    grid-column-end: 2;
+    grid-column-end: 1;
   }
 
   #facts-list {
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
   }
   
   #books-list {
-    margin-top: 40px;
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
   }  
 
   #book-title {
     font-size: large;
   }
 }
+
+
 
